@@ -13,6 +13,8 @@
   <p>Busque por assunto, autoria, nome...</p>
   @if (mensagemErro) {
     <section
+      role="alert"
+      aria-label="Mensagem de erro"
       class="resultados mensagem-erro">
         {{ mensagemErro }}
     </section>
