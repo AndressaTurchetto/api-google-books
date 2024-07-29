@@ -1,6 +1,9 @@
 <article class="card-livro">
   <img src="{{ livro.thumbnail || 'assets/imagens/capa-indisponivel.png' }}" alt="Capa do livro">
-  <section class="info-card">
+  <section
+    role="region"
+    aria-label="Detalhes do livro"
+    class="info-card">
     <h2>{{ livro.title | slice:0:30 }}</h2>
     <dl>
       <dt class="informacoes">Autoria:</dt>
