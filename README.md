@@ -30,6 +30,3 @@ Para abrir e rodar o projeto, execute *npm i* para instalar as dependências e *
 
 Depois, acesse [http://localhost:4200/](url) no seu navegador. 
 
-## 📚 Mais informações do curso
-
-O curso visa implementar estratégias de acessibilidade para tornar o Buscante uma aplicação mais inclusiva e acessível.
